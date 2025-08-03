@@ -3,7 +3,7 @@ public class EjercicioConversion1 {
 
         final var precio1 = "45.50";
         final var precio2 = "32.20";
-        final var precio3 = "75.12";
+        final var precio3 = "75.13";
 
         final var suma = calcularSuma(precio1, precio2, precio3);
         imprimirResultados(suma);
