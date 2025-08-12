@@ -1,7 +1,9 @@
+package cap2;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ejercicio1AumentoDecremento {
+public class Ejercicio2AumentoDecremento {
     public static void main(String[] args) {
         final var scanner = new Scanner(System.in);
 
@@ -9,7 +11,7 @@ public class Ejercicio1AumentoDecremento {
 
         scanner.close();
 
-        a++; // Incremento su valor en 1
+        a--; // Incremento su valor en 1
 
         mostrarValor(a);
 
@@ -17,7 +19,7 @@ public class Ejercicio1AumentoDecremento {
         final var n = RandomUtilities.generarRandomInt(3, 10, random);
         mostrarValor(n);
 
-        a += n;
+        a -= n;
 
         mostrarValor(a);
 

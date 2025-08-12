@@ -1,3 +1,5 @@
+package cap2;
+
 import java.util.Random;
 
 public class Ejercicio1Logica {

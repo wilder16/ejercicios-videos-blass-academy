@@ -1,3 +1,5 @@
+package cap2;
+
 public class EjercicioConversion2 {
     public static void main(String[] args) {
         final var cantidad1 = "23";

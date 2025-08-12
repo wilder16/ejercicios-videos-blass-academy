@@ -1,3 +1,5 @@
+package cap2;
+
 import java.util.Scanner;
 
 public class Ejercicio3 {
@@ -19,7 +21,7 @@ public class Ejercicio3 {
 //        System.out.print("Ingrese su nombre: ");
 //        final var nombre = scanner.nextLine();
 
-        final var nombre = ScannerManager.leeString(scanner, "Ingrese su nombre");
+        final var nombre = ScannerManager.leerString(scanner, "Ingrese su nombre");
 
         scanner.close();
 

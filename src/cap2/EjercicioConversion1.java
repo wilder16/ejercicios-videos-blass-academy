@@ -1,3 +1,5 @@
+package cap2;
+
 public class EjercicioConversion1 {
     public static void main(String[] args) {
 
