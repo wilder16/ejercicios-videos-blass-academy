@@ -43,7 +43,7 @@ public class Ejercicio4 {
         System.out.println("B/b: restar");
         System.out.println("C/c: multiplicar");
         System.out.println("D/d: dividir");
-       System.out.println("E/e: resto");
+        System.out.println("E/e: resto");
     }
 
     static int calcularSuma(int a, int b){
