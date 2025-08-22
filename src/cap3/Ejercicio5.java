@@ -21,8 +21,6 @@ public class Ejercicio5 {
 
     }
 
-    static void imprimitMenu(){}
-
     static int calcularKCal(String diaSemana){
         return switch (diaSemana){
             case "LUNES"        -> 350;
